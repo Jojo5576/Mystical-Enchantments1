@@ -139,6 +139,7 @@ Conflicting propagated mapping for de/example/blitzmod/enchantment/FireballEncha
 Conflicting propagated mapping for de/example/blitzmod/enchantment/FireballEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LightningEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LightningEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
+Conflicting propagated mapping for de/example/blitzmod/enchantment/WaterBubbleEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
@@ -162,11 +163,13 @@ Writing Output: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-En
   de/example/blitzmod/enchantment/FireballEnchantment.class
   de/example/blitzmod/enchantment/LightningEnchantment.class
   de/example/blitzmod/enchantment/ModEnchantments.class
+  de/example/blitzmod/enchantment/WaterBubbleEnchantment.class
   de/example/blitzmod/events/
   de/example/blitzmod/events/DoubleJumpClientHandler.class
   de/example/blitzmod/events/FireballRightClickHandler.class
   de/example/blitzmod/events/PlayerTickHandler.class
   de/example/blitzmod/events/RightClickHandler.class
+  de/example/blitzmod/events/WaterBubbleHandler.class
   de/example/blitzmod/util/
   de/example/blitzmod/util/ParticleUtil.class
   pack.mcmeta

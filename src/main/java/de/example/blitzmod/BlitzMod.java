@@ -1,5 +1,6 @@
 package de.example.blitzmod;
 
+import de.example.blitzmod.events.WaterBubbleHandler;
 import de.example.blitzmod.events.DoubleJumpClientHandler;
 import de.example.blitzmod.events.FireballRightClickHandler;
 import de.example.blitzmod.enchantment.ModEnchantments;
@@ -22,6 +23,8 @@ public class BlitzMod {
         MinecraftForge.EVENT_BUS.register(new RightClickHandler());
         MinecraftForge.EVENT_BUS.register(new FireballRightClickHandler());
         MinecraftForge.EVENT_BUS.register(new PlayerTickHandler());
+        MinecraftForge.EVENT_BUS.register(new WaterBubbleHandler());
+
 
 
     }

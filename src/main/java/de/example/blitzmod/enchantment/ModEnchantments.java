@@ -20,6 +20,10 @@ public class ModEnchantments {
     public static final RegistryObject<Enchantment> DOPPELSPRUNG =
             ENCHANTMENTS.register("doppelsprung", DoubleJumpEnchantment::new);
 
+    public static final RegistryObject<Enchantment> WATERBUBBLE =
+            ENCHANTMENTS.register("waterbubble", WaterBubbleEnchantment::new);
+
+
 
 }
 
