@@ -17,5 +17,9 @@ public class ModEnchantments {
     public static final RegistryObject<Enchantment> FEUERKUGEL =
             ENCHANTMENTS.register("feuerkugel", FireballEnchantment::new);
 
+    public static final RegistryObject<Enchantment> DOPPELSPRUNG =
+            ENCHANTMENTS.register("doppelsprung", DoubleJumpEnchantment::new);
+
+
 }
 

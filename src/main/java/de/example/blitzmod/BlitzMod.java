@@ -1,5 +1,6 @@
 package de.example.blitzmod;
 
+import de.example.blitzmod.events.DoubleJumpClientHandler;
 import de.example.blitzmod.events.FireballRightClickHandler;
 import de.example.blitzmod.enchantment.ModEnchantments;
 import de.example.blitzmod.events.PlayerTickHandler;
