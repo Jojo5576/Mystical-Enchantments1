@@ -1,5 +1,6 @@
 package de.example.blitzmod;
 
+import de.example.blitzmod.events.FireballRightClickHandler;
 import de.example.blitzmod.enchantment.ModEnchantments;
 import de.example.blitzmod.events.PlayerTickHandler;
 import de.example.blitzmod.events.RightClickHandler;
@@ -18,6 +19,12 @@ public class BlitzMod {
         );
 
         MinecraftForge.EVENT_BUS.register(new RightClickHandler());
+        MinecraftForge.EVENT_BUS.register(new FireballRightClickHandler());
         MinecraftForge.EVENT_BUS.register(new PlayerTickHandler());
+
+
     }
+
 }
+
+

@@ -14,10 +14,10 @@ public class LaserData {
     }
 
     public void startCooldown() {
-        cooldownTicks = 120;
+        cooldownTicks = 6;
     }
 
     public void resetFire() {
-        firingTicks = 0;
+        firingTicks = 100;
     }
 }
