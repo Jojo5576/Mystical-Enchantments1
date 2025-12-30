@@ -26,6 +26,8 @@ public class ModEnchantments {
     public static final RegistryObject<Enchantment> LIFESTEAL =
             ENCHANTMENTS.register("lifesteal", LifestealEnchantment::new);
 
+    public static final RegistryObject<Enchantment> HEALING_WATERS =
+            ENCHANTMENTS.register("healing_waters", HealingWatersEnchantment::new);
 
 
 }

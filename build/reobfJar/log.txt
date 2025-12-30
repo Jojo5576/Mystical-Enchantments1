@@ -137,6 +137,7 @@ Processing entries
 Conflicting propagated mapping for de/example/blitzmod/enchantment/DoubleJumpEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/FireballEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/FireballEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
+Conflicting propagated mapping for de/example/blitzmod/enchantment/HealingWatersEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LifestealEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LifestealEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LightningEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
@@ -163,6 +164,7 @@ Writing Output: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-En
   de/example/blitzmod/enchantment/
   de/example/blitzmod/enchantment/DoubleJumpEnchantment.class
   de/example/blitzmod/enchantment/FireballEnchantment.class
+  de/example/blitzmod/enchantment/HealingWatersEnchantment.class
   de/example/blitzmod/enchantment/LifestealEnchantment.class
   de/example/blitzmod/enchantment/LightningEnchantment.class
   de/example/blitzmod/enchantment/ModEnchantments.class
@@ -170,6 +172,7 @@ Writing Output: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-En
   de/example/blitzmod/events/
   de/example/blitzmod/events/DoubleJumpClientHandler.class
   de/example/blitzmod/events/FireballRightClickHandler.class
+  de/example/blitzmod/events/HealingWatersHandler.class
   de/example/blitzmod/events/LifestealHandler.class
   de/example/blitzmod/events/PlayerTickHandler.class
   de/example/blitzmod/events/RightClickHandler.class
