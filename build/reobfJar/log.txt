@@ -159,6 +159,11 @@ Writing Output: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-En
   assets/
   assets/blitzmod/
   assets/blitzmod/de_de.json
+  data/
+  data/blitzmod/
+  data/blitzmod/loot_tables/
+  data/blitzmod/loot_tables/chests/
+  data/blitzmod/loot_tables/chests/end_city_treasure.json
   de/
   de/example/
   de/example/blitzmod/
