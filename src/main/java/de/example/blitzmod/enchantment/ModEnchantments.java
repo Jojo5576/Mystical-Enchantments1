@@ -41,6 +41,13 @@ public class ModEnchantments {
                     WarriorOfTheEndEnchantment::new
             );
 
+    public static final RegistryObject<Enchantment> RIPTIDE_OUT_OF_A_BOTTLE =
+            ENCHANTMENTS.register(
+                    "riptide_out_of_a_bottle",
+                    RiptideOutOfABottleEnchantment::new
+            );
+
+
 
 }
 

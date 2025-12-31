@@ -12,6 +12,7 @@ import de.example.blitzmod.events.RightClickHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import de.example.blitzmod.events.RiptideBottleHandler;
 
 @Mod(BlitzMod.MODID)
 public class BlitzMod {
@@ -30,6 +31,8 @@ public class BlitzMod {
         MinecraftForge.EVENT_BUS.register(new LifestealHandler());
         MinecraftForge.EVENT_BUS.register(new HealingWatersHandler());
         MinecraftForge.EVENT_BUS.register(new StepOutWithABoomHandler());
+        MinecraftForge.EVENT_BUS.register(new RiptideBottleHandler());
+
 
 
 
