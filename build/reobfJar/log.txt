@@ -135,13 +135,15 @@ Reading Input: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-Enc
 Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for de/example/blitzmod/enchantment/DoubleJumpEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
-Conflicting propagated mapping for de/example/blitzmod/enchantment/FireballEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
-Conflicting propagated mapping for de/example/blitzmod/enchantment/FireballEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/HealingWatersEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LifestealEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LifestealEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LightningEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LightningEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
+Conflicting propagated mapping for de/example/blitzmod/enchantment/FireballEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
+Conflicting propagated mapping for de/example/blitzmod/enchantment/FireballEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
+Conflicting propagated mapping for de/example/blitzmod/enchantment/RevivalOfATitanEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
+Conflicting propagated mapping for de/example/blitzmod/enchantment/RevivalOfATitanEnchantment/isTreasureOnly()Z from net/minecraft/world/item/enchantment/Enchantment/isTreasureOnly()Z: isTreasureOnly -> m_6591_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/RiptideOutOfABottleEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/RiptideOutOfABottleEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/StepOutWithABoomEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
@@ -150,6 +152,7 @@ Conflicting propagated mapping for de/example/blitzmod/enchantment/WarriorOfTheE
 Conflicting propagated mapping for de/example/blitzmod/enchantment/WarriorOfTheEndEnchantment/isTreasureOnly()Z from net/minecraft/world/item/enchantment/Enchantment/isTreasureOnly()Z: isTreasureOnly -> m_6591_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/WaterBubbleEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/minecraft/world/entity/boss/enderdragon/EnderDragon/setId(I)V from net/minecraft/world/entity/Entity/setId(I)V: setId -> m_20234_
 Adding extras
 Sorting
 Writing Output: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-Enchantments1\build\reobfJar\output.jar
@@ -179,6 +182,7 @@ Writing Output: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-En
   de/example/blitzmod/enchantment/LifestealEnchantment.class
   de/example/blitzmod/enchantment/LightningEnchantment.class
   de/example/blitzmod/enchantment/ModEnchantments.class
+  de/example/blitzmod/enchantment/RevivalOfATitanEnchantment.class
   de/example/blitzmod/enchantment/RiptideOutOfABottleEnchantment.class
   de/example/blitzmod/enchantment/StepOutWithABoomEnchantment.class
   de/example/blitzmod/enchantment/WarriorOfTheEndEnchantment.class
@@ -189,6 +193,7 @@ Writing Output: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-En
   de/example/blitzmod/events/HealingWatersHandler.class
   de/example/blitzmod/events/LifestealHandler.class
   de/example/blitzmod/events/PlayerTickHandler.class
+  de/example/blitzmod/events/RevivalOfATitanHandler.class
   de/example/blitzmod/events/RightClickHandler.class
   de/example/blitzmod/events/RiptideBottleHandler.class
   de/example/blitzmod/events/StepOutWithABoomHandler.class

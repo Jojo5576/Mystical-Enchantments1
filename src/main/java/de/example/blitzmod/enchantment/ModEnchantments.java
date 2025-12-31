@@ -47,6 +47,9 @@ public class ModEnchantments {
                     RiptideOutOfABottleEnchantment::new
             );
 
+    public static final RegistryObject<Enchantment> REVIVAL_OF_A_TITAN =
+            ENCHANTMENTS.register("revival_of_a_titan", RevivalOfATitanEnchantment::new);
+
 
 
 }
