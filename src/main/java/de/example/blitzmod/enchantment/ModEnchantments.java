@@ -35,6 +35,12 @@ public class ModEnchantments {
                     StepOutWithABoomEnchantment::new
             );
 
+    public static final RegistryObject<Enchantment> WARRIOR_OF_THE_END =
+            ENCHANTMENTS.register(
+                    "warrior_of_the_end",
+                    WarriorOfTheEndEnchantment::new
+            );
+
 
 }
 
