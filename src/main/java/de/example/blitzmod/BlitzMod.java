@@ -33,7 +33,7 @@ public class BlitzMod {
         MinecraftForge.EVENT_BUS.register(new HealingWatersHandler());
         MinecraftForge.EVENT_BUS.register(new StepOutWithABoomHandler());
         MinecraftForge.EVENT_BUS.register(new RiptideBottleHandler());
-        MinecraftForge.EVENT_BUS.register(new RevivalOfATitanHandler());;
+        MinecraftForge.EVENT_BUS.register(new RevivalOfATitanHandler());
 
 
 

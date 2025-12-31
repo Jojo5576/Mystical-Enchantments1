@@ -144,9 +144,9 @@ Conflicting propagated mapping for de/example/blitzmod/enchantment/LightningEnch
 Conflicting propagated mapping for de/example/blitzmod/enchantment/LightningEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/RevivalOfATitanEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/RevivalOfATitanEnchantment/isTreasureOnly()Z from net/minecraft/world/item/enchantment/Enchantment/isTreasureOnly()Z: isTreasureOnly -> m_6591_
+Conflicting propagated mapping for de/example/blitzmod/enchantment/StepOutWithABoomEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/RiptideOutOfABottleEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/RiptideOutOfABottleEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
-Conflicting propagated mapping for de/example/blitzmod/enchantment/StepOutWithABoomEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/WarriorOfTheEndEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/WarriorOfTheEndEnchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/enchantment/Enchantment/canEnchant(Lnet/minecraft/world/item/ItemStack;)Z: canEnchant -> m_6081_
 Conflicting propagated mapping for de/example/blitzmod/enchantment/WarriorOfTheEndEnchantment/isTreasureOnly()Z from net/minecraft/world/item/enchantment/Enchantment/isTreasureOnly()Z: isTreasureOnly -> m_6591_
@@ -164,6 +164,8 @@ Writing Output: C:\Users\Jojo\Documents\GitHub\Mystical Enchantments\Mystical-En
   assets/blitzmod/de_de.json
   data/
   data/blitzmod/
+  data/blitzmod/advancements/
+  data/blitzmod/advancements/warrior_of_the_end.json
   data/blitzmod/loot_tables/
   data/blitzmod/loot_tables/chests/
   data/blitzmod/loot_tables/chests/desert_pyramid.json
