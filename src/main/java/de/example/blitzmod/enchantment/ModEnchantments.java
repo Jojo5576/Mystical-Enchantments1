@@ -29,6 +29,12 @@ public class ModEnchantments {
     public static final RegistryObject<Enchantment> HEALING_WATERS =
             ENCHANTMENTS.register("healing_waters", HealingWatersEnchantment::new);
 
+    public static final RegistryObject<Enchantment> STEP_OUT_WITH_A_BOOM =
+            ENCHANTMENTS.register(
+                    "step_out_with_a_boom",
+                    StepOutWithABoomEnchantment::new
+            );
+
 
 }
 

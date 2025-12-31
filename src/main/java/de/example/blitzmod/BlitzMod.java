@@ -1,5 +1,6 @@
 package de.example.blitzmod;
 
+import de.example.blitzmod.events.StepOutWithABoomHandler;
 import de.example.blitzmod.events.HealingWatersHandler;
 import de.example.blitzmod.events.LifestealHandler;
 import de.example.blitzmod.events.WaterBubbleHandler;
@@ -28,6 +29,7 @@ public class BlitzMod {
         MinecraftForge.EVENT_BUS.register(new WaterBubbleHandler());
         MinecraftForge.EVENT_BUS.register(new LifestealHandler());
         MinecraftForge.EVENT_BUS.register(new HealingWatersHandler());
+        MinecraftForge.EVENT_BUS.register(new StepOutWithABoomHandler());
 
 
 
