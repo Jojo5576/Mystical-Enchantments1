@@ -1,0 +1,4 @@
+name: BlitzEnchants
+version: 1.0
+main: de.blitz.enchants.BlitzEnchants
+api-version: 1.20

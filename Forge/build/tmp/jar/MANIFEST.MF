@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: blitzmod
+Specification-Vendor: 
+Specification-Version: 1
+Implementation-Title: mystical-enchantments
+Implementation-Version: 0.01-DEV
+Implementation-Vendor: 
+Implementation-Timestamp: 2026-01-01T12:19:46+0100
+

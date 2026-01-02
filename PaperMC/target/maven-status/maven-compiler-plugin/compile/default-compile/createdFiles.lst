@@ -1,0 +1,6 @@
+de\blitz\enchants\BlitzEnchants.class
+de\blitz\enchants\listener\DeathListener.class
+de\blitz\enchants\listener\InteractionListener.class
+de\blitz\enchants\listener\CombatListener.class
+de\blitz\enchants\listener\MovementListener.class
+de\blitz\enchants\util\EnchantUtil.class

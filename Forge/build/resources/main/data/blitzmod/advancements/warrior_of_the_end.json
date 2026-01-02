@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": {
+      "text": "Warrior of the End",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Du hast das Wissen des Endes erlangt.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_warrior_of_the_end_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:enchanted_book"],
+            "enchantments": [
+              {
+                "enchantment": "blitzmod:warrior_of_the_end"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
